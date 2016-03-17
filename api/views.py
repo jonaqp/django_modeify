@@ -13,6 +13,7 @@ class TaskList(APIView):
     permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 
     def get(self, request, format=None):
+        print(request)
         dict_res = \
             {"features":
                 [
