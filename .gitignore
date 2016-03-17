@@ -1,0 +1,17 @@
+syntax: glob
+
+*.*~
+*.pyc
+*.swp
+*.db
+*.xls
+*.csv
+python/*
+.DS_Store
+*.egg/*
+*.egg-info/*
+*iml
+.idea
+*.egg
+/env
+*.orig
